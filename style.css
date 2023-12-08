@@ -1,0 +1,152 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #96b8e6;
+  }
+  
+  .container {
+    width: 500px;
+    margin: 0 auto;
+    padding: 80px;
+    border: 1px solid #fcfcfc;
+    background-color: #fff;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .form input {
+    width: 80%;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .form button {
+    width: 40%;
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    background-color: #77d85e;
+    color: #000000;
+    cursor: pointer;
+  }
+  
+  .form button:hover {
+    background-color: #008cb8;
+  }
+  
+  .form a {
+    color: #00a0d2;
+    text-decoration: none;
+  }
+  
+  .form a:hover {
+    text-decoration: underline;
+  }
+  
+  .message {
+    color: rgb(250, 2, 2);
+  }
+  /* ... (seu código CSS anterior) */
+
+
+
+
+
+
+
+
+/* /* style.css */
+
+/* Estilo para o container */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilo para a página inicial */
+.home-page {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Estilo para a lista de botões */
+.buttons {
+    margin-top: 20px;
+    list-style-type: none; /* Remove os marcadores de lista */
+    padding: 0; /* Remove o preenchimento padrão da lista */
+}
+
+/* Estilo para os botões */
+.buttons li {
+    margin-bottom: 10px; /* Espaçamento entre os botões */
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+
+
+
+
+
+
+/* style.css */
+
+/* Estilo para o contêiner */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Estilo para o cartão de Visão Geral dos Eventos */
+.overview-card {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+}
+
+/* Estilo para a lista de informações do evento */
+.overview-card ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Estilo para os itens da lista */
+.overview-card li {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* Estilo para os títulos (Nome da Empresa, Nome do Evento, etc.) */
+.overview-card strong {
+    font-weight: bold;
+}
+
+/* Adicione mais estilos conforme necessário para atender às suas preferências */

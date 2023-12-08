@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Div de container para estruturar o conteúdo -->
+  <div class="container">
+    <!-- Seção de Login -->
+    <div id="login">
+      <h1>Login</h1>
+      <!-- Formulário de Login -->
+      <form class="form" onsubmit="return login()">
+        <!-- Campos de entrada para nome de usuário e senha -->
+        <input type="text" id="username" placeholder="Nome de usuário" required>
+        <input type="password" id="password" placeholder="Senha" required>
+        <!-- Botão de envio para login -->
+        <button type="submit">Entrar</button>
+        <!-- Link para cadastro e mensagem para novos usuários -->
+        <p>Não tem uma conta? <a href="#" onclick="showRegister()">Cadastre-se aqui</a></p>
+        <!-- Exibição de mensagens de login aqui -->
+        <p id="login-message" class="message"></p>
+      </form>
+    </div>
+
+    <!-- Seção de Cadastro -->
+    <div id="register" style="display:none">
+      <h1>Cadastro</h1>
+      <!-- Formulário de Cadastro -->
+      <form class="form" onsubmit="return register()">
+
+        <!-- Campos de entrada para novo nome de usuário e senha -->
+        <input type="text" id="new-username" placeholder="Novo nome de usuário" required>
+        <input type="password" id="new-password" placeholder="Nova senha" required>
+
+        <!-- Campo de confirmação de senha para o cadastro -->
+        <input type="password" id="confirm-password" placeholder="Confirme a senha" required>
+
+        <!-- Botão de envio para o cadastro -->
+        <button type="submit">Cadastrar</button>
+
+        <!-- Link para login para usuários existentes e mensagem para usuários cadastrados -->
+        <p>Já tem uma conta? <a href="#" onclick="showLogin()">Faça login aqui</a></p>
+
+        <!-- Exibição de mensagens de cadastro aqui -->
+        <p id="register-message" class="message"></p>
+      </form>
+    </div>
+  </div>
+
+  
+  <script src="script.js"></script>
+</body>
+</html>

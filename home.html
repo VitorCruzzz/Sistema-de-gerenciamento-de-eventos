@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="home-page">
+            <h2>Página Inicial</h2>
+            <ul class="buttons">
+                <li><button id="overview-button">Visão Geral dos Eventos</button></li>
+                <li><button id="create-button">Criar Eventos</button></li>
+                <li><button id="details-button">Detalhes dos Eventos</button></li>
+            </ul>
+        </div>
+    </div>
+
+    <script>
+        // Função para redirecionar para a página especificada
+        function redirectToPage(page) {
+            window.location.href = page;
+        }
+
+        // Adiciona um evento de clique para cada botão
+        document.getElementById('overview-button').addEventListener('click', function () {
+            redirectToPage('overview.html');
+        });
+
+        document.getElementById('create-button').addEventListener('click', function () {
+            redirectToPage('create.html');
+        });
+        
+        document.getElementById('details-button').addEventListener('click', function () {
+            redirectToPage('details.html');
+        });
+    </script>
+</body>
+</html>
+

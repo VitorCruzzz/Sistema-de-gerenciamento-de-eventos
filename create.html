@@ -1,0 +1,55 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criar Evento</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Criar Evento</h2>
+        <form id="event-form">
+            <label for="empresa">Nome da Empresa:</label>
+            <input type="text" id="empresa" name="empresa" required><br>
+
+            <label for="nome-evento">Nome do Evento:</label>
+            <input type="text" id="nome-evento" name="nome-evento" required><br>
+
+            <label for="responsavel">Nome do Responsável:</label>
+            <input type="text" id="responsavel" name="responsavel" required><br>
+
+            <label for="data-inicio">Data de Início:</label>
+            <input type="date" id="data-inicio" name="data-inicio" required><br>
+
+            <label for="data-termino">Data de Término:</label>
+            <input type="date" id="data-termino" name="data-termino" required><br>
+
+            <label for="hora-inicio">Hora de Início:</label>
+            <input type="time" id="hora-inicio" name="hora-inicio" required><br>
+
+            <label for="hora-termino">Hora de Término:</label>
+            <input type="time" id="hora-termino" name="hora-termino" required><br>
+
+            <label for="valor-ingresso">Valor do Ingresso (R$):</label>
+            <input type="number" id="valor-ingresso" name="valor-ingresso" required><br>
+            
+
+            <button type="submit">Criar</button>   <button id="voltar-criar">Voltar</button>
+        </form>
+        <div id="informacoes-criacao"></div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
